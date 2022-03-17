@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Brotherhood of Cyber16</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <style>
+        #myBtn {
+            right: 30%;
+        }
+
+        .int {
+            max-width: 700px;
+            margin-left: 10%;
+        }
+
+        .int h1 {
+            font-size: 40px;
+            color: rgb(0, 255, 242);
+            text-align: left;
+            letter-spacing: 5px;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        #c16 {
+            margin-left: 11%;
+            font-size: 40px;
+            letter-spacing: 5px;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .sidenav {
+            background-color: rgb(59, 59, 59);
+            width: 80px;
+            height: 110vh;
+            margin-top: -5.6%;
+            position: fixed;
+            box-shadow: 0px 8px 20px 0px rgba(0, 255, 242, 0.5);
+        }
+
+        #ft {
+            color: rgb(0, 255, 242);
+            text-align: right;
+        }
+
+        #cm {
+            background-color: #333;
+            border-left: 2px solid rgb(0, 255, 242);
+            box-shadow: 0px 8px 20px 0px rgba(0, 255, 242, 0.315);
+            margin-left: 75%;
+            min-height: 110vh;
+            margin-top: -108vh;
+
+
+        }
+
+        #cm h1 {
+            color: rgb(0, 255, 242);
+            padding: 20px 40px;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        #cm ol li {
+            margin-top: 30px;
+        }
+
+        @media screen and (max-width: 800px) {
+            #cm {
+                margin-left: 5%;
+                min-height: 50vh;
+                margin-top: 40px;
+                border-left: 2px solid rgb(0, 255, 242);
+                border-right: 2px solid rgb(0, 255, 242);
+                max-width: 90%;
+            }
+
+            .int {
+                max-width: 80%;
+            }
+
+            .int h1 {
+                font-size: 20px;
+            }
+
+            #c16 {
+                font-size: 20px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidenav">
+        <ul>
+            <li><a href="#"><span onclick="openNav()">o</span></a></li>
+            <li><a href="blog.html">#</a></li>
+            <li><a href="about.html">x</a></li>
+
+        </ul>
+    </div>
+    <section class="int">
+
+        <h1 id="h1">About<h1>
+                <h1 id="c16">Cyber_16,</h1>
+                <br>
+                <p id="intb">
+                    The Cyber_16 community is basically a cyber security based platform , where we post blogs
+                    and articles about cyber security, cyber threats etc. This is a brotherhood for teenagers for
+                    cyber security.What is cyber security in simple words? Cyber security is the application of
+                    technologies,
+                    processes and controls to protect <br>
+                    systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of
+                    cyber
+                    attacks and protect against the unauthorised exploitation of systems, networks and technologies.
+                    What is cyber security and why is it important?<br>
+                    Cyber security refers to protecting systems connected to the internet from threats in cyberspace. It
+                    involves protecting software, data, and hardware and helps prevent cybercriminals from gaining
+                    access to
+                    devices or the networks. <br>
+                    Why is cybersecurity important for students?<br>
+                    The more worrying breaches are where student safety is compromised. ... It's an unfortunate fact
+                    that, while
+                    cybersecurity in Education is necessary to protect against financial loss and prevent disruption,
+                    it's also
+                    crucial to protect students from harm. <br>
+                    What Are the Different Types of Cyber Security? <br>
+                    Cloud Security. Cloud-based data storage has become a popular option over the last decade due to its
+                    enhanced privacy. ... <br>
+                    Network Security. Guard your internal network against outside threats with increased network
+                    security. ...
+                    Application Security. <br>
+                    Examples of Network Security includes Antivirus and Antispyware programs, Firewall that block
+                    unauthorized
+                    access to a network and VPNs (Virtual Private Networks) used for secure remote access
+                </p>
+                <p id="ft">- The Cyber16 Community</p>
+    </section>
+    <section id="cm">
+        <h1>Community-</h1>
+        <ol>
+            <li>
+                Ahmed Ahon (founder & ceo)
+                <hr style="border-color: cadetblue;">
+            </li>
+            <li>
+                John Doe ( co-founder)
+                <hr style="border-color: cadetblue;">
+            </li>
+            <li>
+                lorem
+                <hr style="border-color: cadetblue;">
+            </li>
+
+        </ol>
+    </section>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">suppot</a>
+            <a href="#">Join Us</a>
+            <a href="#">Contact</a>
+        </div>
+
+    </div>
+
+
+    <div class="icon-bar" id="ibar">
+        <a href="#" class="facebook"><span onclick="openNav()">o</span></i></a>
+        <a href="blog.html" class="twitter">#</i></a>
+        <a href="about.html" class="google">x</i></a>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+</body>
+
+</html>
